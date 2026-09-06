@@ -5,7 +5,7 @@
 脚本入口：
 
 ```bash
-bash <(curl -fsSL https://raw.githubusercontent.com/byJoey/Actions-bbr-v3/main/install.sh)
+bash <(curl -fsSL https://raw.githubusercontent.com/yehailu/Actions-bbr-v3/main/install.sh)
 ```
 
 首次运行后脚本会自动安装联网快捷命令，后续可直接运行：
