@@ -87,7 +87,7 @@ linux-7.1.y -> patches/bbrv3-linux-7.1.patch
 ## 安装最新版
 
 ```bash
-bash <(curl -fsSL https://raw.githubusercontent.com/byJoey/Actions-bbr-v3/main/install.sh)
+bash <(curl -fsSL https://raw.githubusercontent.com/yehailu/Actions-bbr-v3/main/install.sh)
 ```
 
 首次运行后也可以直接输入：
@@ -118,7 +118,7 @@ b
 
 ```bash
 export GITHUB_TOKEN=你的 GitHub Token
-bash <(curl -fsSL https://raw.githubusercontent.com/byJoey/Actions-bbr-v3/main/install.sh)
+bash <(curl -fsSL https://raw.githubusercontent.com/yehailu/Actions-bbr-v3/main/install.sh)
 ```
 
 ## 指定版本安装
@@ -351,7 +351,7 @@ CVE-2026-31431 对应的 AEAD userspace 接口在新构建内核中由内核配�
 
 ```bash
 command -v python3 >/dev/null 2>&1 || (sudo apt update && sudo apt install -y python3)
-curl -fsSL -o cve_2026_31431_detector.py https://raw.githubusercontent.com/byJoey/Actions-bbr-v3/main/cve_2026_31431_detector.py
+curl -fsSL -o cve_2026_31431_detector.py https://raw.githubusercontent.com/yehailu/Actions-bbr-v3/main/cve_2026_31431_detector.py
 chmod +x cve_2026_31431_detector.py
 sudo python3 cve_2026_31431_detector.py
 ```
@@ -397,10 +397,10 @@ sudo python3 cve_2026_31431_detector.py
 
 ## Star History
 
-<a href="https://star-history.dera.page/#byJoey/Actions-bbr-v3&Timeline">
+<a href="https://star-history.dera.page/#yehailu/Actions-bbr-v3&Timeline">
  <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://star-history.dera.page/svg?repos=byJoey/Actions-bbr-v3&type=Timeline&theme=dark" />
-   <source media="(prefers-color-scheme: light)" srcset="https://star-history.dera.page/svg?repos=byJoey/Actions-bbr-v3&type=Timeline" />
-   <img alt="Star History Chart" src="https://star-history.dera.page/svg?repos=byJoey/Actions-bbr-v3&type=Timeline" />
+   <source media="(prefers-color-scheme: dark)" srcset="https://star-history.dera.page/svg?repos=yehailu/Actions-bbr-v3&type=Timeline&theme=dark" />
+   <source media="(prefers-color-scheme: light)" srcset="https://star-history.dera.page/svg?repos=yehailu/Actions-bbr-v3&type=Timeline" />
+   <img alt="Star History Chart" src="https://star-history.dera.page/svg?repos=yehailu/Actions-bbr-v3&type=Timeline" />
  </picture>
 </a>
